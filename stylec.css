@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+}
+.container {
+    display: grid;
+}
+header {
+    grid-column-start: 1;
+    grid-column-end: 12;
+    background-color: rgb(209, 231, 11);
+    font-style: italic;
+    text-align: center; 
+    font-size: 15px;
+}    
+.menu {
+    grid-column-start: 3;
+    grid-column-end: 12;
+    justify-content: center;
+}
+ul {
+    list-style-type: none;
+}
+a,
+a:link {
+    text-decoration: none;
+    color: blue;
+}
+.midia-vincent {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    padding: 10%
+}
+.principal {
+    grid-column-start: 3;
+    grid-column-end: 12;
+    text-align: justify;
+    padding-right: 10px;
+    padding-left: 0px;
+    font-size: 18px;
+}
+footer {
+    grid-column-start: 1;
+    grid-column-end: 12;
+    text-align: center;
+    background-color: rgb(209, 231, 11)
+}
+li {
+    float: right;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 25px;
+}
+h1 {
+    padding-left: 38px;
+    
+}
+.infos {
+    font-size: 15px;
+}
